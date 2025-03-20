@@ -26,7 +26,7 @@ yum -y install aws-cfn-bootstrap
 yum -y install gcc gcc-c++ python3 python3-devel unixODBC unixODBC-devel
 mkdir amazonutils
 cd amazonutils
-git clone https://github.com/aws/redshift-test-drive.git
+git clone https://github.com/dallen31p/redshift-test-drive.git
 cd redshift-test-drive
 make setup
 if [[ "$SIMPLE_REPLAY_OVERWRITE_S3_PATH" != "N/A" ]]; then
